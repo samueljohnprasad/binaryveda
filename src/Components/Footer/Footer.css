@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.unorderlist {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+}
+
+.footerImg {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 700px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .unorderlist {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+  }
+  .footerImg {
+    margin-left: 106px;
+    margin-top: 70px;
+  }
+}

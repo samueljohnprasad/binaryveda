@@ -1,0 +1,40 @@
+.footerMenu {
+  color: #939da7;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footerMenu > ul {
+  list-style: none;
+}
+
+.footerMenuList > li {
+  margin-bottom: 20px;
+
+  color: #939da7;
+}
+
+.footerMenuList > li:first-child {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+@media only screen and (max-width: 700px) {
+  .footerMenuList > li:first-child {
+    font-size: 25px;
+  }
+
+  .footerMenu {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin: 50px;
+  }
+}
